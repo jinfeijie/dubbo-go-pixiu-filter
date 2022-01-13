@@ -41,6 +41,8 @@ const (
 	MethodDelete HTTPVerb = "DELETE"
 	// MethodOptions options
 	MethodOptions HTTPVerb = "OPTIONS"
+	// MethodTrace trace
+	MethodTrace HTTPVerb = "TRACE"
 )
 
 // RequestType describes the type of the request. could be DUBBO/HTTP and others that we might implement in the future
